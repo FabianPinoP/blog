@@ -1,7 +1,26 @@
-<h1> formulario prueba </h1>
-    <form method = 'get' action ='/posts/create' id = 'create_posts'>
-        title<input name="title">
-        image_url<input name="image_url">
-        content<input name="content">
-        <input type="submit" value="Submit">
-    </form>
+    <div class = "container">
+        <h1> Formulario Blog </h1>
+        <form method = 'get' action ='/posts/create' id = 'create_posts'>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input name="title" class="form-control">         
+            </div>
+            <div class="form-group">
+                <label for="image_url">image url</label>
+                <input name="image_url" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="content">Content</label>
+                <textarea name="content" class="form-control"> </textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>    
+     
+        
+        
+        
+        
+        
+        
+        

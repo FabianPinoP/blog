@@ -1,6 +1,6 @@
 class Post < ApplicationRecord
     validates :title, :image_url, :content, presence: true 
-
+    
 
     before_save :kill_spoiler
 
